@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(248, 245, 245);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(184, 176, 176);
+}
+header div {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-right: 600px;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+#nav a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 15px;
+    
+}
+#nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid ; 
+    border-radius: 5px;
+}
+.form-container {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 600px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid #007bff;
+    color: #007bff;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+#circle3{
+    padding: 5px;
+    border-radius:  100%;
+}
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(212, 212, 212);
+}
+#email{
+    width: 60%;
+}
+.card-input {
+    display: flex;
+    gap: 5px;
+}
+.card-input input {
+    flex: 1;
+    width: 70%;
+}
+#submit {
+    background-color: rgb(31, 145, 135);
+    color: white;
+    width: 100%;
+}
+#contact-support {
+    font-weight: bold;
+}
+.regular-text {
+    font-weight: normal;
+}
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    border-radius: 8px;
+    width: 1000px;
+    padding: 30px;
+    margin-left: 220px;
+}
+.sidebar {
+    background-color: #007bff;
+    color: white;
+    padding: 40px;
+    margin-left: 0px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    padding-bottom: 10px;
+}
+.sidebar p {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+.sidebar ul {
+    list-style-type: circle;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.sidebar li {
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+    padding: 5px 0;
+}
+#price{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#client-sites{
+    font-weight: bold;
+}
+#agency-plan{
+    text-decoration: 2px underline rgb(184, 176, 176);
+}
+#sidebar-WP{
+    font-weight: bold;
+}
+#review{
+    font-style: italic;
+    font-weight: lighter;
+    border-top: 2px solid rgb(184, 176, 176);
+    padding-top: 30px;
+}
+footer{
+    margin-left: 450px;
+}
+footer a{
+    color: #007bff;
+    text-decoration: none;
+}
